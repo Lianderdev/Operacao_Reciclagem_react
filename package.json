@@ -1,8 +1,20 @@
 {
   "name": "operacao-reciclagem-react",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "homepage": "https://github.com/Lianderdev/Operacao_Reciclagem_react#readme",
+  "bugs": {
+    "url": "https://github.com/Lianderdev/Operacao_Reciclagem_react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lianderdev/Operacao_Reciclagem_react.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
