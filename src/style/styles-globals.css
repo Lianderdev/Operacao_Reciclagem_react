@@ -5,10 +5,14 @@
 }
 
 body {
+    height: 100vh;
     background-color: rgb(66, 90, 66);
     color: black;
     -webkit-font-smoothing: antialiased;
     font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 body, input, textarea, button {
