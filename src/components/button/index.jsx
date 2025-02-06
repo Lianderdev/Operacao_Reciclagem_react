@@ -1,14 +1,15 @@
+import { Link} from 'react-router-dom';
 import './style.css'
 
-export function Button({ children, rounded, color }) {
+export function Button({ children, rounded, color, link }) {
     return (
         <>
             <div className="button">
-                <a
-                    href="#"
+                <Link
+                    to={link}
                     className={`${rounded ? 'rounded' : ''} ${color ? 'color' + color : ''}`}>
                     {children}
-                </a>
+                </Link>
             </div>
         </>
     )

@@ -1,19 +1,13 @@
-import React from "react";
-import { useState } from "react";
-import ReactDOM from "react-dom/client";
-import { Button } from "./components/button";
-import { useState } from "react";
-import { IoIosArrowBack } from "react-icons/io";
-import {Welcome} from "./pages/Welcome/index.jsx"
-
+import { Routes, Route } from 'react-router-dom';
+import { Welcome } from "./pages/Welcome/index.jsx"
+import { Menu } from "./pages/Menu/index.jsx"
 
 export function App() {
   return <>
-    <h1>Operação Reciclagem</h1>
-    <Button rounded={true}><IoIosArrowBack /></Button>
-    <Button>Play</Button>
-    <Welcome/>
-
+   <Routes>
+      <Route path="/" element={<Welcome />} />
+      <Route path="/menu" element={<Menu />} />
+    </Routes>
   </>
 }
 
