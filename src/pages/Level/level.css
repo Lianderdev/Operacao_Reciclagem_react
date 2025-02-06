@@ -1,0 +1,17 @@
+.level{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative;
+    padding: 50px;
+}
+
+.title_menu {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 65px;
+    color: rgb(192, 159, 122);
+}
